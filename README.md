@@ -4,16 +4,17 @@ Retail Analytics in the Electronics Industry
 
 Global Electronics, a leading retailer of consumer electronics, has provided with several datasets containing information about their customers, products, sales, stores, and currency exchange rates. The company seeks to leverage this data to better understand their business and identify areas for improvement.
 
-Approach:
+**Approach:**
 1.Data Cleaning and Preparation Check for missing values and handle them appropriately. Convert data types where necessary (e.g., dates, numerical values). Merge datasets where necessary for analysis (e.g., linking sales data with product and customer data). 2.Load Data Insert the preprocessed data into an SQL database by creating relevant tables for each data source and using SQL INSERT statements to load the data. 3.Power BI Visualization Connect SQL to Power BI/Tableau, import the data, and create interactive dashboards. 4.Develop 10 SQL Queries Formulate and execute 10 SQL queries to extract key insights from the data. These queries should address important business questions and support the analysis steps below.
 
-Analysis Steps:
+**Analysis Steps:**
 1.Customer Analysis
 
 Demographic Distribution: Analyze the distribution of customers based on gender, age (calculated from birthday), location (city, state, country, continent).
 Purchase Patterns: Identify purchasing patterns such as average order value, frequency of purchases, and preferred products.
 Segmentation: Segment customers based on demographics and purchasing behavior to identify key customer groups.
-2.Sales Analysis
+
+**2.Sales Analysis**
 
 Overall Sales Performance: Analyze total sales over time, identifying trends and seasonality
 Sales by Product: Evaluate which products are the top performers in terms of quantity sold and revenue generated.
@@ -24,7 +25,8 @@ Sales by Currency: Examine how different currencies impact sales figures, consid
 Product Popularity: Identify the most and least popular products based on sales data.
 Profitability Analysis: Calculate profit margins for products by comparing unit cost and unit price.
 Category Analysis: Analyze sales performance across different product categories and subcategories.
-4.Store Analysis
+
+**4.Store Analysis**
 
 Store Performance: Evaluate store performance based on sales, size (square meters), and operational data (open date).
 Geographical Analysis: Analyze sales by store location to identify high-performing regions.
